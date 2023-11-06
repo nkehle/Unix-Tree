@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "tree test",
+      "setup": "make && wget -O a3_tests.tgz -q https://github.com/amigler/csc357-s23/blob/main/a3/a3_tests.tgz?raw=true && tar -xf a3_tests.tgz && chmod 755 a3_test.sh ",
+      "run": "./a3_test.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": null
+    }
+  ]
+}
